@@ -1,0 +1,30 @@
+{
+  "skill_name": "competitor-demand-research",
+  "evals": [
+    {
+      "id": "xiaohongshu-ai-tool-paid-validation",
+      "prompt": "我看到一个小红书上卖 AI 图片转视频工具的账号，最近几条笔记数据不错，评论区有人问怎么买。帮我判断这个品能不能做。",
+      "expected_output": "Should classify the opportunity using Go / Small Bet / Observe / Reject. Must evaluate Xiaohongshu note performance, 24h/48h/weekly/monthly sales signals, paid validation, comment purchase intent, competitor quantity, competitor strength, traffic reachability, revenue assumptions, and risks. Should not conclude only from likes or saves."
+    },
+    {
+      "id": "ai-saas-competitor-revenue-estimate",
+      "prompt": "我发现一个海外 AI 简历生成器网站，Similarweb 有一些流量，定价每月 9.9 美元。帮我估算它大概能赚多少钱，以及我能不能做一个类似的。",
+      "expected_output": "Should estimate revenue with low/middle/high assumptions using traffic × conversion × ARPPU. Must analyze search intent, keyword difficulty, competitor moat, product differentiation, build feasibility, and go/no-go decision. Should clearly label assumptions and avoid exact claims."
+    },
+    {
+      "id": "weak-competitor-strong-demand",
+      "prompt": "有个 AI 论文降重工具，对手页面很丑，客服也不专业，但一个月卖了 1000 多单。我是不是可以降维打击？",
+      "expected_output": "Should recognize weak competitor but strong paid signal. Must evaluate order quality, price, margin, refund/support burden, academic integrity/legal/platform risks, traffic sources, competitor map, and whether the user can enter with a focused MVP or should avoid due to risk."
+    },
+    {
+      "id": "no-competitor-warning",
+      "prompt": "我发现一个方向几乎没人做，是不是蓝海？",
+      "expected_output": "Should warn that no competitors does not automatically mean blue ocean. Must check demand, paid signals, traffic reachability, user pain, substitutes, and possible hidden reasons such as weak demand or low willingness to pay."
+    },
+    {
+      "id": "broad-vs-precise-traffic",
+      "prompt": "free ai tools 这个词流量很大，我想做一个 AI 工具导航站，你觉得怎么样？",
+      "expected_output": "Should distinguish broad traffic from precise traffic, analyze conversion weakness, suggest precise long-tail keywords and niche entry points, evaluate competition, monetization, and give a direct Go / Small Bet / Observe / Reject decision."
+    }
+  ]
+}
